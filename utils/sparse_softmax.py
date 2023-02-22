@@ -128,11 +128,3 @@ class Sparsemax(nn.Module):
     def forward(self, x, batch):
         return sparsemax(x, batch)
 
-
-if __name__ == '__main__':
-    sparse_attention = Sparsemax()
-    input_x = torch.tensor([1.0, 1.1, 1.2, 1.3, 1.4,
-                            2.0, 2.1, 2.2, 2.3, 2.4])
-    input_batch = torch.cat([torch.zeros(5, dtype=torch.long), torch.ones(5, dtype=torch.long)], dim=0)
-    res = sparse_attention(input_x, input_batch)
-    print(res)

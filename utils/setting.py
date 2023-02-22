@@ -30,3 +30,4 @@ def set_device(dev):
 
 def get_device():
     return _device
+

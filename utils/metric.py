@@ -148,3 +148,4 @@ def adjust_predicts(label, pred=None):
         if anomaly_state:
             predict[i] = True
     return predict.astype(int)
+

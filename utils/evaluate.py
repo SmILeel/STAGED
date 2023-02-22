@@ -191,3 +191,5 @@ def dtw_reconstruction_error(x, x_):
             last_min = np.min([dtw_matrix[i - 1, j], dtw_matrix[i, j - 1], dtw_matrix[i - 1, j - 1]])
             dtw_matrix[i, j] = cost + last_min
     return dtw_matrix[n][m]
+
+
