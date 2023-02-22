@@ -28,7 +28,7 @@ If you want to know more about this dataset, please read the following paper.
   publisher={Elsevier}
 }
 ```
-![](figs/TPFF.jpg)
+![](figs/TPFF.png)
 
 
 ### [Secure Water Treatment (SWaT)](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/)
@@ -44,7 +44,7 @@ If you want to know more about this dataset, please read the following paper.
   organization={Springer}
 }
 ```
-![](figs/SWAT.jpg)
+![](figs/SWAT.png)
 
 ---
 ## References
